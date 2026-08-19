@@ -1,12 +1,12 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.3" %}
 
 package:
   name: runtime-introspect
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/r/runtime-introspect/runtime_introspect-{{ version }}.tar.gz
-  sha256: e1c6932c4021d432c81ed577424af20e4cb1e20eed93d45b2950cf8be2da9b45
+  url: https://files.pythonhosted.org/packages/source/r/runtime-introspect/runtime_introspect-{{ version }}.tar.gz
+  sha256: 698e5db7f4c5f5b990554a93b10d1a3ecfc5319d7280380ee3b4430bcefbeba8
 
 build:
   noarch: python
